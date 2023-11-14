@@ -161,7 +161,7 @@ AddFrame(new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), new Color(0, 100, 220
 
 <summary>Show</summary>
 
-`AddProgressBar(pos, size, align, gradient, tiles color1, color2, ratio, bordercol, backcol)`
+`AddProgressBar(pos, size, align, gradient, tiles, space, color1, color2, ratio, bordercol, backcol)`
 
 `Vector2 pos` position on screen (ratio between 0 to 1 or pixel)
 
@@ -172,6 +172,8 @@ AddFrame(new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), new Color(0, 100, 220
 `bool gradient` false = simple colored bar, true = gradient color bar
 
 `int tiles` number of tiles for gradient
+
+`int space` white space between tiles
 
 `Color color1` Primary color
 
@@ -195,7 +197,7 @@ AddProgressBar(new Vector2(0.5f, 0.5f), new Vector2(0.8f, 0.05f), new Color(255,
 
 <summary>Show</summary>
 
-`AddGraphBar(pos, size, values, align, color1, bordercol)`
+`AddGraphBar(pos, size, values, align, histogram, space, color1, bordercol)`
 
 `Vector2 pos` position on screen (ratio between 0 to 1 or pixel)
 
@@ -204,6 +206,10 @@ AddProgressBar(new Vector2(0.5f, 0.5f), new Vector2(0.8f, 0.05f), new Color(255,
 `List<float> values` ratio list
 
 `TextAlignment align` alignment
+
+`bool histogram` show histogram or line
+
+`int spcae` white space between histogram bar
 
 `Color color1` graph color
 
