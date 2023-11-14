@@ -45,6 +45,22 @@ namespace ExampleScreenMakerAPI
 
 ***
 
+### ShowGrid
+
+<details>
+
+<summary>Show</summary>
+
+`ShowGrid(pixel)`
+
+`bool pixel` show ratio or pixel (default: ratio)
+
+```C#
+ShowGrid();
+```
+
+</details>
+
 ### AddText
 
 <details>
