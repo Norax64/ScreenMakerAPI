@@ -2,6 +2,8 @@
 
 ScreenMakerAPI allows you to easily create custom screens with sprites for mods and pb scripts
 
+![ScreenMakerAPI](https://github.com/Norax64/ScreenMakerAPI/blob/main/Images/ScreenMakerAPI.jpg)
+
 ## Getting started
 
 ```C#
