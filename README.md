@@ -2,7 +2,7 @@
 
 ScreenMakerAPI allows you to easily create custom screens with sprites
 
-![ScreenMakerAPI](https://github.com/Norax64/ScreenMakerAPI/blob/main/Images/ScreenMakerAPI.jpg)
+![ScreenMakerAPI](/Images/ScreenMakerAPI.jpg)
 
 ## Getting started
 
@@ -58,6 +58,8 @@ namespace ExampleScreenMakerAPI
 ```C#
 ShowGrid();
 ```
+
+![ShowGrid](/Images/ShowGrid.jpg)
 
 </details>
 
