@@ -63,6 +63,52 @@ ShowGrid();
 
 </details>
 
+### ShowViewport
+
+<details>
+
+<summary>Show</summary>
+
+`ShowViewport()`
+
+```C#
+ShowViewport();
+```
+
+![ShowGrid](/Images/ShowGrid.jpg)
+
+</details>
+
+### SetViewportPosition
+
+`SetViewportPosition(float x, float y)`
+
+### SetViewportSize
+
+`SetViewportSize(float x, float y)`
+
+### SetViewportMargin
+
+`SetViewportMargin(float x, float y)`
+
+### SpriteExist
+
+Check if the sprite is available
+
+`bool SpriteExist(string name)`
+
+### Clear
+
+Clear current sprite list
+
+`Clear()`
+
+### Dispose
+
+Update screen
+
+`Dispose()`
+
 ### AddText
 
 <details>
